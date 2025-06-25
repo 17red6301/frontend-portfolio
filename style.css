@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+header, footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+section {
+  margin: 20px 0;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+h1, h2 {
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li::before {
+  content: "✔️ ";
+  margin-right: 8px;
+}
